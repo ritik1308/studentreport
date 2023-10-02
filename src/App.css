@@ -1,0 +1,43 @@
+body{
+  width: 100vw;
+  height: 100vh; 
+  background:linear-gradient(180deg,rgb(230, 198, 230),rgb(225, 177, 177),rgb(241, 241, 147));
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#linkss{
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  height: 10vh;
+  /* border: 2px solid pink; */
+}
+.sys{
+  /* width:200px; */
+  /* height: 70px; */
+  /* border: 2px solid pink; */
+  text-decoration: none;
+  font-size: 50px;
+  color:red;
+}
+table{
+  height:50vh;
+  width: 50vw;
+  font-size: 30px;
+  text-align: center;
+  margin-left:24%;
+}
+.upperpart{
+  display: flex;
+  justify-content: space-around;
+}
+button{
+  height: 70px;
+  border-radius: 10px;
+  color: rgb(86, 86, 110);
+  font-size: 30px;
+}
+button:hover{
+  background-color: aqua;
+  color:black
+}
